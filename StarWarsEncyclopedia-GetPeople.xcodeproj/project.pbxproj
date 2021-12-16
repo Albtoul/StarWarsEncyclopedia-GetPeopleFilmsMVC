@@ -14,6 +14,7 @@
 		2EEDBFED276B213000D1A5A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EEDBFEB276B213000D1A5A3 /* LaunchScreen.storyboard */; };
 		2EEDBFF7276B218000D1A5A3 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEDBFF6276B218000D1A5A3 /* PeopleViewController.swift */; };
 		2EEDBFFA276B2AB500D1A5A3 /* FilmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEDBFF9276B2AB500D1A5A3 /* FilmsViewController.swift */; };
+		2EEDBFFD276B2D7E00D1A5A3 /* StarsWarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEDBFFC276B2D7E00D1A5A3 /* StarsWarsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2EEDBFEE276B213000D1A5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EEDBFF6276B218000D1A5A3 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		2EEDBFF9276B2AB500D1A5A3 /* FilmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewController.swift; sourceTree = "<group>"; };
+		2EEDBFFC276B2D7E00D1A5A3 /* StarsWarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsWarsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				2EEDBFE9276B213000D1A5A3 /* Assets.xcassets */,
 				2EEDBFEB276B213000D1A5A3 /* LaunchScreen.storyboard */,
 				2EEDBFEE276B213000D1A5A3 /* Info.plist */,
+				2EEDBFFC276B2D7E00D1A5A3 /* StarsWarsModel.swift */,
 			);
 			path = "StarWarsEncyclopedia-GetPeople";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EEDBFFD276B2D7E00D1A5A3 /* StarsWarsModel.swift in Sources */,
 				2EEDBFE1276B212F00D1A5A3 /* AppDelegate.swift in Sources */,
 				2EEDBFE3276B212F00D1A5A3 /* SceneDelegate.swift in Sources */,
 				2EEDBFFA276B2AB500D1A5A3 /* FilmsViewController.swift in Sources */,

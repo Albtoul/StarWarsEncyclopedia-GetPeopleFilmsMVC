@@ -11,8 +11,8 @@ class PeopleViewController: UITableViewController {
     var people = [String]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = URL(string: "https://swapi.dev/api/people?format=json")!
-        URLSession.shared.dataTask(with: url, completionHandler: {
+        
+        StarWarsModel.getAllPeople(completionHandler: {
             data, response, error in
             do{
                 if let jsonResult = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableContainers) as? NSDictionary {
@@ -30,7 +30,7 @@ class PeopleViewController: UITableViewController {
             }catch{
                 print(error)
             }
-        }).resume()
+        })
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
