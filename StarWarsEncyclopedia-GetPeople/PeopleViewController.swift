@@ -11,7 +11,7 @@ class PeopleViewController: UITableViewController {
     var people = [String]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = URL(string: "https://www.swapi.tech/api/people?format=json")!
+        let url = URL(string: "https://swapi.dev/api/people?format=json")!
         URLSession.shared.dataTask(with: url, completionHandler: {
             data, response, error in
             do{
